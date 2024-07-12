@@ -1,0 +1,79 @@
+.main-reports-container {
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.reports-container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+.overal-emoji-count-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.overal-report-item {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  width: 46%;
+  gap: 4px;
+  border-radius: 27.29px;
+  opacity: 0px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .overal-report-item {
+    width: 18%;
+  }
+}
+.report-heading {
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 3px;
+}
+@media screen and (min-width: 768px) {
+  .report-heading {
+    font-size: 20px;
+  }
+}
+
+.monthly-report-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.monthly-heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.select-month-container {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}

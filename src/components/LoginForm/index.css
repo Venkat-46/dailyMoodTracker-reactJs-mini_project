@@ -1,0 +1,113 @@
+.login-form-main-container {
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(19, 18, 18, 0.28) 2.05%,
+    rgba(53, 51, 51, 0) 92.82%
+  );
+
+  width: 312px;
+  height: 420px;
+  top: 104px;
+  left: 24px;
+  gap: 0px;
+  border-radius: 27.29px;
+  border: 2.05px;
+  opacity: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    align-items: center;
+    width: 797px;
+    height: 509px;
+    top: 257px;
+    left: 321px;
+    gap: 0px;
+    border-radius: 27.29px;
+    border: 2.05px 0px 0px 0px;
+    opacity: 0px;
+  }
+}
+
+.heading {
+  align-self: center;
+  font-size: 22px;
+  width: 227px;
+  height: 48px;
+  top: 128px;
+  left: 66px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+@media screen and (min-width: 768px) {
+  .large-device-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.user-input {
+  color: white;
+  height: 36px;
+  background: transparent;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 20px;
+  margin-top: 5px;
+  padding-left: 15px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+}
+.checkbox-label {
+  margin-left: 5px;
+  margin-top: 0px;
+}
+.login-button {
+  background-color: #ffbe38;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.error-text {
+  color: red;
+}

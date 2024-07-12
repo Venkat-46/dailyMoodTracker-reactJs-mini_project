@@ -1,0 +1,215 @@
+.main-home-container {
+  min-height: 85vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.home-items-container {
+  width: 92%;
+}
+.home-heading {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    display: block;
+    color: #ffbe38;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-items-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.emoji-list-container {
+  width: Fixed (328px) px;
+  height: Fixed (116px) px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 1.38px solid;
+
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+
+  top: 81px;
+  left: 16px;
+  padding: 30px 16px 30px 16px;
+  gap: 0px;
+  border-radius: 18.42px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0px;
+}
+.emoji-button {
+  color: white;
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .emoji-list-container {
+    display: none;
+  }
+}
+.lg-emoji-list-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-emoji-list-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 243px;
+    left: -1px;
+    gap: 0px;
+    background: linear-gradient(
+      145.12deg,
+      rgba(114, 104, 117, 0.21) 1.78%,
+      rgba(117, 116, 117, 0) 125.71%
+    );
+    border: 2.05px solid;
+    border-image-source: linear-gradient(
+      139.28deg,
+      rgba(90, 86, 86, 0.28) 2.05%,
+      rgba(0, 0, 0, 0) 92.82%
+    );
+    border-radius: 27.29px;
+    padding: 30px 16px 30px 16px;
+    opacity: 0px;
+  }
+}
+.emoji-list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: Hug (67px) px;
+  height: Hug (56px) px;
+  gap: 9px;
+  opacity: 0px;
+}
+
+.emoji-name {
+  font-size: 13px;
+  height: 15px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 0px;
+}
+.emoji-img {
+  width: 32px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+.selection-section {
+  width: 100%;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 2.05px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+  gap: 0px;
+  border-radius: 12px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 08px;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .selection-section {
+    height: 220px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .lg-selection-section {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.selection-container {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .selection-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.count-text {
+  align-self: center;
+}
+
+.emoji-select-container {
+  outline: none;
+  color: white;
+  background: #42404d;
+  border: 1px solid #4e5d72;
+  height: Fixed (45px) px;
+  padding: 9px 13px 9px 13px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-select-container {
+    width: 40%;
+  }
+}
+
+.select-container {
+  outline: none;
+  color: white;
+  background: #42404d;
+  border: 1px solid #4e5d72;
+  height: Fixed (45px) px;
+  padding: 9px 13px 9px 13px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  box-shadow: 0px 1px 2px 0px #00000014;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 768px) {
+  .select-container {
+    width: 40%;
+  }
+}
+.style-active-emoji {
+  box-shadow: 0px 0px 16px 0px #bfbfbf;
+}
+.style-emoji {
+  width: 50px;
+  height: 40px;
+}
